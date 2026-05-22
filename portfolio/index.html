@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sathishkumar N H — Full Stack Developer</title>
+  <meta name="description" content="Sathishkumar N H — CS student & full-stack developer from Tamil Nadu. Passionate about building elegant, scalable web solutions." />
+  <meta name="keywords" content="Sathishkumar, full stack developer, React, Java, web developer, Tamil Nadu, portfolio" />
+  <meta name="author" content="Sathishkumar N H" />
+  <meta property="og:title" content="Sathishkumar N H — Full Stack Developer" />
+  <meta property="og:description" content="CS student & full-stack developer building elegant web solutions." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">Sathishkumar</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#education" class="mobile-link">Education</a>
+    <a href="#certifications" class="mobile-link">Certifications</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-circle hero-circle-1"></div>
+      <div class="hero-circle hero-circle-2"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span></span> Available for Opportunities
+        </div>
+        <h1 class="hero-name">Sathishkumar N H</h1>
+        <p class="hero-title">
+          <span id="typedTitle"></span><span class="cursor"></span>
+        </p>
+        <p class="hero-tagline">
+          CS final-year student crafting elegant, full-stack web solutions — turning ideas into production-ready digital experiences.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">⚡ View Projects</a>
+          <a href="#contact" class="btn btn-outline">✉ Contact Me</a>
+          <a href="resume.pdf.pdf" target="_blank" class="btn btn-outline" id="Resume">⬇ Download Resume</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-card">
+            <div class="about-initial">SK</div>
+            <p class="section-label">who am I?</p>
+            <p style="color:var(--muted);font-size:0.95rem;line-height:1.75">
+              I'm a <strong style="color:var(--text)">Computer Science student</strong> at Government Arts College, Paramakudi (Alagappa University), graduating in 2026 with an 81% academic record. I love building things that live on the internet.
+            </p>
+            <div class="about-stat-row">
+              <div class="stat-box">
+                <div class="stat-num">81%</div>
+                <div class="stat-label">percentage (BSc CS)</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-num">3+</div>
+                <div class="stat-label">Projects Built</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-num">3+</div>
+                <div class="stat-label">Certifications</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal reveal-delay-2">
+          <p class="section-label">About Me</p>
+          <h2 class="section-title">Driven by <em style="font-family:'DM Serif Display',serif;font-style:italic;color:var(--gold)">curiosity</em>, defined by code</h2>
+          <div class="divider"></div>
+          <p>
+            I'm a <strong>full-stack web developer</strong> in the making — equally comfortable working across the stack, from designing intuitive UIs with React to architecting normalized MySQL databases. My project experience spans building secure authentication systems and real-time data pipelines for 500+ users.
+          </p>
+          <p>
+            Beyond code, I'm a <strong>quick learner</strong> who thrives in collaborative environments and embraces new technologies with enthusiasm. Whether it's Java OOP, REST API design, or modern JavaScript frameworks — I adapt and deliver.
+          </p>
+          <p style="margin-bottom:20px"><strong>Career goal:</strong> Land a challenging software engineering role where I can contribute impactful products, grow fast, and eventually architect scalable systems.</p>
+          <div class="strengths">
+            <span class="strength-pill">⚡ Fast Learner</span>
+            <span class="strength-pill">🤝 Team Player</span>
+            <span class="strength-pill">🧩 Problem Solver</span>
+            <span class="strength-pill">🔄 Adaptable</span>
+            <span class="strength-pill">💬 Communicator</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="section">
+    <div class="container">
+      <p class="section-label reveal">Technical Arsenal</p>
+      <h2 class="section-title reveal reveal-delay-1">Skills &amp; <em style="font-family:'DM Serif Display',serif;font-style:italic;color:var(--gold)">Expertise</em></h2>
+      <div class="divider reveal reveal-delay-1"></div>
+      <div class="skills-grid">
+        <!-- Programming Languages -->
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-card-icon">☕</div>
+          <h3>Programming Languages</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">Java</span><span class="skill-pct">78%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">JavaScript</span><span class="skill-pct">72%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">SQL</span><span class="skill-pct">75%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+          </div>
+        </div>
+        <!-- Web Technologies -->
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-card-icon">🌐</div>
+          <h3>Web Technologies</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">HTML5</span><span class="skill-pct">88%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">CSS3</span><span class="skill-pct">82%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">React</span><span class="skill-pct">70%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <!--<div class="skill-top"><span class="skill-name">PHP</span><span class="skill-pct">65%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>-->
+            </div>
+          </div>
+        </div>
+        <!-- Database & Backend -->
+        <div class="skill-card reveal reveal-delay-3">
+          <div class="skill-card-icon">🗄️</div>
+          <h3>Database &amp; Concepts</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">MySQL</span><span class="skill-pct">76%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="76"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">REST API</span><span class="skill-pct">68%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="68"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top"><span class="skill-name">OOP / DSA</span><span class="skill-pct">72%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+            </div>
+          </div>
+        </div>
+        <!-- Tools -->
+        <div class="skill-card reveal reveal-delay-4">
+          <div class="skill-card-icon">🛠️</div>
+          <h3>Tools &amp; Dev Env</h3>
+          <div class="pill-list" style="margin-bottom:16px">
+            <span class="pill">Git</span>
+            <span class="pill">GitHub</span>
+            <span class="pill">VS Code</span>
+            <span class="pill">Cursor</span>
+            <span class="pill">ChatGPT</span>
+            <span class="pill">Gemini</span>
+          </div>
+          <h3 style="margin-top:8px">Soft Skills</h3>
+          <div class="pill-list">
+            <span class="pill">Problem Solving</span>
+            <span class="pill">Communication</span>
+            <span class="pill">Teamwork</span>
+            <span class="pill">Adaptability</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects" class="section">
+    <div class="container">
+      <p class="section-label reveal">What I've built</p>
+      <h2 class="section-title reveal reveal-delay-1">Featured <em style="font-family:'DM Serif Display',serif;font-style:italic;color:var(--gold)">Projects</em></h2>
+      <div class="divider reveal reveal-delay-1"></div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+ <div class="project-card reveal reveal-delay-2">
+          <div class="project-num">01</div>
+          <div class="project-tag-row">
+            <span class="tag">React</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">CSS3</span>
+          </div>
+          <h3>Find Movie using <br>(Movie API)</h3>
+          <p class="project-desc">
+            A fully responsive, dark-themed personal portfolio — the very site you're viewing right now. Designed with editorial aesthetics, smooth scroll animations, and a dark/light mode toggle.
+          </p>
+          <ul class="project-achievements">
+            <li>Single-page application with CSS custom property-driven theming</li>
+            <li>Intersection Observer API for performant scroll-triggered animations</li>
+            <li>Mobile-first responsive layout across all breakpoints</li>
+            <li>Achieved 95+ Lighthouse performance score</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/sathish9043/Movie-Search.git" target="_blank" class="project-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://findallmovie.netlify.app/" target="_blank" class="project-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Demo
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 — placeholder -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-num">02</div>
+          <div class="project-tag-row">
+            <span class="tag">React</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">CSS3</span>
+          </div>
+          <h3>Personal Portfolio Website</h3>
+          <p class="project-desc">
+            A fully responsive, dark-themed personal portfolio — the very site you're viewing right now. Designed with editorial aesthetics, smooth scroll animations, and a dark/light mode toggle.
+          </p>
+          <ul class="project-achievements">
+            <li>Single-page application with CSS custom property-driven theming</li>
+            <li>Intersection Observer API for performant scroll-triggered animations</li>
+            <li>Mobile-first responsive layout across all breakpoints</li>
+            <li>Achieved 95+ Lighthouse performance score</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/sathishkumarnh" target="_blank" class="project-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="#" class="project-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Demo
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3 — placeholder -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-num">03</div>
+          <div class="project-tag-row">
+            <span class="tag">React</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">CSS3</span>
+          </div>
+          <h3>Weather Application</h3>
+          <p class="project-desc">
+            A fully responsive, dark-themed personal portfolio — the very site you're viewing right now. Designed with editorial aesthetics, smooth scroll animations, and a dark/light mode toggle.
+          </p>
+          <ul class="project-achievements">
+            <li>Single-page application with CSS custom property-driven theming</li>
+            <li>Intersection Observer API for performant scroll-triggered animations</li>
+            <li>Mobile-first responsive layout across all breakpoints</li>
+            <li>Achieved 95+ Lighthouse performance score</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/sathish9043/Weather-App.git" target="_blank" class="project-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://findallweather.netlify.app/" target="_blank" class="project-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Demo
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 4 — placeholder -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-num">04</div>
+          <div class="project-tag-row">
+            <span class="tag">Full Stack</span>
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">HTML/CSS</span>
+          </div>
+          <h3>College Online Voting System</h3>
+          <p class="project-desc">
+            A secure, full-stack digital voting platform that eliminated manual paper-based balloting for college elections — supporting 500+ registered student voters with real-time tallying.
+          </p>
+          <ul class="project-achievements">
+            <li>Enabled 500+ students to register and vote digitally, eliminating manual ballot processes entirely</li>
+            <li>Implemented session-based PHP authentication to prevent duplicate voting and unauthorized access</li>
+            <li>Designed a normalized MySQL schema for efficient voter record management and live vote tallies</li>
+            <li>Reduced election turnaround time and administrative overhead significantly</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/sathishkumarnh" target="_blank" class="project-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="#" class="project-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Demo
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section id="experience" class="section" style="background:var(--bg2)">
+    <div class="container">
+      <p class="section-label reveal">Work & Leadership</p>
+      <h2 class="section-title reveal reveal-delay-1">Experience &amp; <em style="font-family:'DM Serif Display',serif;font-style:italic;color:var(--gold)">Contributions</em></h2>
+      <div class="divider reveal reveal-delay-1"></div>
+      <div class="exp-cards reveal reveal-delay-2">
+        <div class="exp-card">
+          <div class="exp-dot"></div>
+          <div class="exp-body">
+            <h3>Academic Project Lead — Online Voting System</h3>
+            <div class="exp-meta">Government Arts College, Paramakudi &nbsp;|&nbsp; 2025 – 2026</div>
+            <p>Independently designed, developed, and deployed a full-stack voting platform serving the college's student body of 500+. Managed the complete software development lifecycle — from requirement gathering to database design, backend logic, and front-end UI.</p>
+          </div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-dot"></div>
+          <div class="exp-body">
+            <h3>Typewriting Senior — Bilingual Proficiency</h3>
+            <div class="exp-meta">Directorate of Technical Education &nbsp;|&nbsp; 2021</div>
+            <p>Achieved Senior Grade certification in both English and Tamil typewriting — demonstrating exceptional accuracy, speed, and focus under examination conditions.</p>
+          </div>
+        </div>
+        <div class="exp-card" style="border-style:dashed;opacity:0.7">
+          <div class="exp-dot" style="background:var(--muted);box-shadow:none"></div>
+          <div class="exp-body">
+            <h3>Actively Seeking Internship / Entry-Level Roles</h3>
+            <div class="exp-meta">Open to Opportunities &nbsp;|&nbsp; 2026</div>
+            <p>Looking for full-stack development, software engineering, or web developer roles where I can bring immediate value, learn from senior engineers, and build impactful products.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section id="education" class="section">
+    <div class="container">
+      <p class="section-label reveal">Academic Background</p>
+      <h2 class="section-title reveal reveal-delay-1">Education &amp; <em style="font-family:'DM Serif Display',serif;font-style:italic;color:var(--gold)">Foundation</em></h2>
+      <div class="divider reveal reveal-delay-1"></div>
+      <div class="edu-timeline">
+        <div class="edu-item reveal reveal-delay-1">
+          <div class="edu-card">
+            <div class="edu-year">2023 – 2026</div>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>Government Arts College, Paramakudi (Alagappa University)</p>
+            <div class="edu-grade">📊 81% — Distinction</div>
+          </div>
+        </div>
+        <div class="edu-item reveal reveal-delay-2">
+          <div class="edu-card">
+            <div class="edu-year">2021 – 2023</div>
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <p>Sourashtra Higher Secondary School, Paramakudi</p>
+            <div class="edu-grade">📊 85% — First Class with Distinction</div>
+          </div>
+        </div>
+        <div class="edu-item reveal reveal-delay-3">
+          <div class="edu-card">
+            <div class="edu-year">2021</div>
+            <h3>Secondary School Leaving Certificate (SSLC)</h3>
+            <p>Sourashtra Higher Secondary School, Paramakudi</p>
+            <div class="edu-grade">📘 Completed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CERTIFICATIONS ── -->
+  <section id="certifications" class="section" style="background:var(--bg2)">
+    <div class="container">
+      <p class="section-label reveal">Credentials</p>
+      <h2 class="section-title reveal reveal-delay-1">Certifications &amp; <em style="font-family:'DM Serif Display',serif;font-style:italic;color:var(--gold)">Achievements</em></h2>
+      <div class="divider reveal reveal-delay-1"></div>
+      <div class="cert-grid">
+        <div class="cert-card reveal reveal-delay-1">
+          <div class="cert-icon">🎓</div>
+          <div class="cert-body">
+            <h3>Academic Proficiency Award</h3>
+            <p>Department of Computer Science &nbsp;·&nbsp; 2026</p>
+          </div>
+        </div>
+        <div class="cert-card reveal reveal-delay-2">
+          <div class="cert-icon">🌐</div>
+          <div class="cert-body">
+            <h3>Full Stack Web Development</h3>
+            <p>Udemy &nbsp;·&nbsp; 2026</p>
+          </div>
+        </div>
+        <div class="cert-card reveal reveal-delay-3">
+          <div class="cert-icon">⌨️</div>
+          <div class="cert-body">
+            <h3>Typewriting Senior Grade — English &amp; Tamil</h3>
+            <p>Directorate of Technical Education &nbsp;·&nbsp; 2021</p>
+          </div>
+        </div>
+        <!--<div class="cert-card reveal reveal-delay-4">
+          <div class="cert-icon">☕</div>
+          <div class="cert-body">
+            <h3>Java OOP &amp; Data Structures</h3>
+            <p>Self-study &amp; coursework &nbsp;·&nbsp; 2025</p>
+          </div>
+        </div>
+      </div>-->
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="section">
+    <div class="container">
+      <p class="section-label reveal">Let's Talk</p>
+      <h2 class="section-title reveal reveal-delay-1">Get In <em style="font-family:'DM Serif Display',serif;font-style:italic;color:var(--gold)">Touch</em></h2>
+      <p class="section-sub reveal reveal-delay-2" style="margin-bottom:48px">Have a project idea, an open role, or just want to connect? My inbox is always open.</p>
+      <div class="contact-grid">
+        <div class="reveal">
+          <div class="contact-info-cards">
+            <a href="mailto:nhsathishkumar99@gmail.com" class="contact-card">
+              <div class="contact-card-icon">✉️</div>
+              <div>
+                <div class="contact-card-label">Email</div>
+                <div class="contact-card-value">nhsathishkumar99@gmail.com</div>
+              </div>
+            </a>
+            <a href="tel:+918667705152" class="contact-card">
+              <div class="contact-card-icon">📞</div>
+              <div>
+                <div class="contact-card-label">Phone</div>
+                <div class="contact-card-value">+91 86677 05152</div>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/sathishkumar-n-h-075017293" target="_blank" class="contact-card">
+              <div class="contact-card-icon">💼</div>
+              <div>
+                <div class="contact-card-label">LinkedIn</div>
+                <div class="contact-card-value">sathishkumar-n-h-075017293</div>
+              </div>
+            </a>
+            <a href="https://github.com/sathishkumarnh" target="_blank" class="contact-card">
+              <div class="contact-card-icon">🐙</div>
+              <div>
+                <div class="contact-card-label">GitHub</div>
+                <div class="contact-card-value">github.com/sathishkumarnh</div>
+              </div>
+            </a>
+            <div class="contact-card" style="background:var(--surface);border-color:var(--gold)">
+              <div class="contact-card-icon">📍</div>
+              <div>
+                <div class="contact-card-label">Location</div>
+                <div class="contact-card-value">Paramakudi, Tamil Nadu, India</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal reveal-delay-2">
+          <div class="contact-form">
+            <p style="font-family:'DM Serif Display',serif;font-size:1.4rem;margin-bottom:8px">Send a Message</p>
+            <p style="color:var(--muted);font-size:0.88rem;margin-bottom:24px">I usually respond within 24 hours.</p>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" placeholder="John Doe" id="contactName" />
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="john@example.com" id="contactEmail" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Subject</label>
+              <input type="text" placeholder="Job Opportunity / Project Collaboration" id="contactSubject" />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea rows="5" placeholder="Tell me about your project or opportunity..." id="contactMessage"></textarea>
+            </div>
+            <button class="btn btn-primary btn-full" id="sendMessage">
+              ✈ Send Message
+            </button>
+            <p class="form-note">* This will open your email client with pre-filled details</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        Crafted with ♥ by <strong>Sathishkumar N H</strong> &nbsp;·&nbsp; © 2026 All rights reserved
+      </div>
+      <div class="social-links">
+        <a href="mailto:nhsathishkumar99@gmail.com" class="social-link" title="Email">✉</a>
+        <a href="https://linkedin.com/in/sathishkumar-n-h-075017293" target="_blank" class="social-link" title="LinkedIn">in</a>
+        <a href="https://github.com/sathishkumarnh" target="_blank" class="social-link" title="GitHub">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── SCROLL TOP ── -->
+  <button id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <!-- ── SCRIPTS ── -->
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>
